@@ -1,0 +1,121 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background: linear-gradient(to bottom, #f7f7f7, #eaeaea);
+    color: #333;
+}
+
+/* Flex Container for Centering */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Box-Sizing and Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Section */
+.main-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}       
+
+/* Device Body Styling */
+.device-body {
+    background-color: #ff4d4d;
+    border-radius: 15px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Display Area */
+.display {
+    background-color: #fff;
+    width: 520px;
+    height: 520px;
+    border: 10px solid #c60000;
+    border-radius: 10px;
+    display: flex;
+}
+
+/* Individual Boxes */
+.box {
+    border: 1px solid #ddd;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s;
+}
+
+/* Button Container Styling */
+.button-holder {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+}   
+
+/* Button Container Styling */
+.button-holder *{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    font-size: 1rem;
+    border: none;
+    background-color: white;
+}
+
+/* Reset Button */
+#reset{
+    padding: 15px;
+    cursor: pointer;
+}
+
+/* Slider Styling */
+#grid-slider{
+    appearance: none;
+    padding: 5px;
+    width: 33%;
+}
+
+/* Slider-thumb Styling */
+#grid-slider::-webkit-slider-thumb{
+    appearance: none;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Slider Value */
+.slider-value {
+    padding: 15px;
+    height: 50px;
+}   
+
+/* Display Color Picker */
+#display-color {
+    height: 50px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+/* Image Styling */
+img {
+    height: 50px;
+    cursor: pointer;
+}
+
+
+

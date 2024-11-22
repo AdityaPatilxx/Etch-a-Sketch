@@ -11,9 +11,30 @@
 
 <body>
     <main>
-        <div class="main-container">
+        <section class="device-body">
+            <div class="main-section">
+                <!-- Display Grid Area -->
+                <div class="display-holder"></div>
 
-        </div>
+                <!-- Controls Section -->
+                <div class="button-holder">
+                    <!-- Reset Button -->
+                    <button id="reset">Reset</button>
+
+                    <!-- Grid Size Slider -->
+                    <input type="range" id="grid-slider" value="16" min="16" max="64" step="8">
+                    <div class="slider-value">16</div>
+
+                    <!-- Color Picker -->
+                    <input type="color" id="display-color" value="#808080">
+
+                    <!-- Randomizer Button with Image -->
+                    <button class="random">
+                        <img src="assets/cube.png" alt="Random Color Icon">
+                    </button>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 
