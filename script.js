@@ -107,7 +107,7 @@ function getCurrentColor() {
 // Return increased opacity based on touch count of div
 function getOpacity(touchCount) {
     const baseOpacity = 0.4;
-    const increment = 0.08;
+    const increment = 0.06;
 
     let newOpacity = baseOpacity + (increment * touchCount);
 
